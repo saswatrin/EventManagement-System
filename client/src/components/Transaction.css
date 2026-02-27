@@ -1,0 +1,122 @@
+.transaction {
+    padding: 20px;
+}
+
+.transaction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.transaction-header h2 {
+    color: #333;
+    font-size: 28px;
+    flex: 1;
+    text-align: center;
+}
+
+.btn-chart,
+.btn-back-dash {
+    padding: 10px 30px;
+    background: #4A7BA7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-chart:hover,
+.btn-back-dash:hover {
+    background: #3a6a8f;
+}
+
+.chart-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-placeholder {
+    text-align: center;
+}
+
+.chart-placeholder p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.chart-bars {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    height: 200px;
+    padding: 20px;
+}
+
+.bar {
+    width: 60px;
+    background: linear-gradient(to top, #4A7BA7, #6B9BC3);
+    border-radius: 4px 4px 0 0;
+    transition: all 0.3s;
+}
+
+.bar:hover {
+    opacity: 0.8;
+}
+
+.transactions-table {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #4A7BA7;
+    color: #fff;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.status {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status.completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status.pending {
+    background: #fff3cd;
+    color: #856404;
+}
