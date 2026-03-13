@@ -26,6 +26,15 @@
     min-width: 450px;
 }
 
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .form-group {
     margin-bottom: 25px;
 }
@@ -97,16 +106,13 @@
     background: #777;
 }
 
-.btn-signup-link {
-    margin-top: 25px;
-    background: transparent;
-    border: none;
+.login-hints {
+    margin-top: 20px;
     color: #fff;
-    cursor: pointer;
-    text-decoration: underline;
-    font-size: 15px;
+    text-align: center;
+    font-size: 14px;
 }
 
-.btn-signup-link:hover {
-    color: #B8C5D6;
+.login-hints p {
+    margin: 5px 0;
 }
