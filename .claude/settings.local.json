@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(node --check server.js)",
+      "Bash(node --check middleware/auth.js)",
+      "Bash(node --check models/User.js)",
+      "Bash(node --check models/Member.js)",
+      "Bash(node --check models/Event.js)",
+      "Bash(node --check models/Venue.js)",
+      "Bash(node --check models/Booking.js)",
+      "Bash(node --check routes/auth.js)",
+      "Bash(node --check routes/members.js)",
+      "Bash(node --check routes/events.js)",
+      "Bash(node --check routes/venues.js)",
+      "Bash(node --check routes/bookings.js)",
+      "Bash(node --check routes/reports.js)",
+      "Bash(npm --version)",
+      "Bash(curl -s http://localhost:5000/api/health)",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/login -H \"Content-Type: application/json\" -d '{\"\"username\"\":\"\"admin\"\",\"\"password\"\":\"\"admin123\"\"}')",
+      "Bash(node -e \":*)"
+    ]
+  }
+}
